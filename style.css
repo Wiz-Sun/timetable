@@ -1,0 +1,38 @@
+/* Modern table styles */
+body {
+  margin: 20px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  color: #531818;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th, td {
+  border: 1px solid #121212;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+tr:hover {
+  background-color: #e6f7ff;
+}
+
+#title{
+  text-align: center;
+}
